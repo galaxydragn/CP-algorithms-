@@ -1,6 +1,6 @@
 # Bubble sort
 
-<img width="300" height="400" alt="WhatsApp Image 2026-09-23 at 10 57 20" src="https://github.com/user-attachments/assets/c939f153-da2b-44fd-9b40-52bdb88126f2" />
+<img width="1000" height="1600" alt="WhatsApp Image 2026-09-23 at 10 57 20" src="https://github.com/user-attachments/assets/c939f153-da2b-44fd-9b40-52bdb88126f2" />
 
 <br><br>
 
