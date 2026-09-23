@@ -4,6 +4,7 @@
 
 <br><br>
 
+### Algorithm
 
 ```cpp
 vector<int> bubble_sort(vector<int> &nums){
@@ -23,4 +24,5 @@ vector<int> bubble_sort(vector<int> &nums){
     return nums ;
 }
 ```
-
+#### NOTE :
+1.Time complexity : O(n^2)
