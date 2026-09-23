@@ -25,4 +25,4 @@ vector<int> bubble_sort(vector<int> &nums){
 }
 ```
 #### NOTE :
-1.Time complexity : O(n^2)
+1.Time complexity : O(n²)
