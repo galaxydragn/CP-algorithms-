@@ -21,3 +21,6 @@ vector<int> selection_sort(vector<int> &nums){
     return nums ;
 }
 ```
+
+#### NOTE :
+1.Time complexity : O(n²)
