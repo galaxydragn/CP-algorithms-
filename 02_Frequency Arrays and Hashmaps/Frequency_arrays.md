@@ -26,7 +26,6 @@ int freq[26] = {0};
 for (char c : s) {
     freq[c - 'a']++;   // maps 'a'->0, 'b'->1, ..., 'z'->25
 }
-```
 
 
 for (int i = 0; i < 26; i++) {
