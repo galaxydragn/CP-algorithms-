@@ -58,3 +58,19 @@ find() does the same thing and returns an iteration
 ```cpp
 age.erase("Ravi") ;
 ```
+
+### Iterating through unordered_map() :
+```cpp
+unordered_map<string, int> age = {{"Ram", 29}, {"Sam", 26}, {"Ashok", 28}};
+
+// Modern way (C++17+) — structured bindings, very readable
+for (auto& [name, years] : age) {
+    cout << name << " is " << years << " years old\n";
+}
+
+// Older/equivalent way
+for (auto& p : age) {
+    cout << p.first << " is " << p.second << " years old\n";
+    // p.first = key, p.second = value
+}
+```
