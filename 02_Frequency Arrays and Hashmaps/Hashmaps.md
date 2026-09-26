@@ -1,0 +1,25 @@
+Hashmaps stores values in key-value pair.
+
+## Unordered_map
+
+### Basic Syntax and declaration :
+
+```cpp
+#include <unordered_map>
+using namespace std ;
+unordered_map<string,int> age ;
+```
+Here in this unordered map , keys are string and their ages are taken as int 
+
+### Ways to insert and update :
+```cpp
+age["Ram"] = 23 ;
+age["Sam"] = 26 ;                          //This method of delcaration overwrites the value 
+
+age.insert({"Ashok" , 28});                //It does not overwrite if key already exists 
+age.insert(make_pair("Ravi" , 22));        //older style 
+
+age["Ram"] = 29 ;                          //Now value of Ram is 29 which has overwritten the value 26
+```
+
+
