@@ -1,5 +1,7 @@
 # map
 
+map is actually a tree, not a hash table
+
 ### Basic Syntax and declaration :
 
 ```cpp
@@ -21,3 +23,4 @@ Ram-->23
 Sam-->26
 Ashok-->28
 ```
+Output is ALWAYS alphabetically sorted by key
