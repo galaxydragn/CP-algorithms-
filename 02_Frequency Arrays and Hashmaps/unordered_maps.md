@@ -37,3 +37,24 @@ Output :
 0
 1
 ```
+
+### Checking if a key exist :
+```cpp
+if(age.count("Ram")){
+  cout << "Ram is in the map";
+}
+```
+mp.cout(key) returns 1 if the key exists else 0
+
+```cpp
+if(age.find("Ram")!= age.end()){
+  cout << "Found" ;
+}
+```
+find() does the same thing and returns an iteration 
+
+
+### Deleting key
+```cpp
+age.erase("Ravi") ;
+```
