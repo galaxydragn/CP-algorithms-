@@ -21,5 +21,19 @@ age.insert(make_pair("Ravi" , 22));        //older style
 
 age["Ram"] = 29 ;                          //Now value of Ram is 29 which has overwritten the value 26
 ```
+### NOTE :
+If key does not exist then mp[key] creates it automatically with default value ie , 0 for int and "" for string 
 
+```cpp
+unordered_map<string,int> mp ;
+cout << mp.size() ;
+cout << mp["alok"];
+cout << mp.size() ;
+```
 
+Output : 
+```cpp
+0
+0
+1
+```
