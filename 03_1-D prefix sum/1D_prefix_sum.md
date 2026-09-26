@@ -8,3 +8,6 @@ for(int i = 1 ; i < n+1 ; i ++){
   prefixsum[i] = prefixsum[i-1]+a[i] ;
 ```
 Now , prefixsum[i] is nothing but summation of a[1 .... i]
+
+Sum of the elements from a[i] to a[j] is actually prefixsum[j]-prefixsum[i]
+
