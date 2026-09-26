@@ -74,3 +74,11 @@ for (auto& p : age) {
     // p.first = key, p.second = value
 }
 ```
+
+### Other useful Functions:
+```cpp
+age.size();          //return the size of the unordered_map
+age.empty();         //returns true if age is empty
+age.clear() ;        //removes everything 
+```
+
