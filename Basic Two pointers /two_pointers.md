@@ -1,6 +1,6 @@
 # Two Pointers 
 
-Instead of using nested loops (O(n²)) , we can maintain two indices which coordinate with each other through an array or subarray to give O(n0 instead of O(n²)
+Instead of using nested loops (O(n²)) , we can maintain two indices which coordinate with each other through an array or subarray to give O(n) instead of O(n²)
 
 ### Opposite direction pointers :
 
