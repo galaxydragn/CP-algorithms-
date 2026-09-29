@@ -2,7 +2,7 @@
 
 Instead of using nested loops (O(n²)) , we can maintain two indices which coordinate with each other through an array or subarray to give O(n) instead of O(n²)
 
-### Opposite direction pointers :
+### 1.Opposite direction pointers :
 
 ##### eg - Pair sum in sorted array 
 
@@ -52,3 +52,24 @@ void tripletsum(vector<int> &nums){
 }
 ```
 
+### 2. Same direction pointers 
+
+##### eg - smallest subarray whose sum >= k
+
+```cpp
+void tripletsum(vector<int> &nums , int t){
+    int n = nums.size();
+    int l = 0 , r = 0 ;
+    int sum = 0 ,ct = INT_MAX ;
+    while(r<n){
+        sum += nums[r] ;
+        while (sum>= t){
+            ct = min(ct, r-l+1) ;
+            sum-=nums[l];
+            l++ ;
+        }
+        r++ ;
+    }
+    cout << ct ;
+}
+```
