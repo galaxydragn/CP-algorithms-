@@ -25,3 +25,10 @@ if(n^1 == 0){
   cout << "even" ;
 }
 ```
+
+2. Multiply/Divide by 2
+multiply : n << 1
+divide : n >> 1
+
+3. To find 2^k : 
+  
