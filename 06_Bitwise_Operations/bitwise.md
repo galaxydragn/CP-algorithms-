@@ -18,7 +18,7 @@
 ### Common Tricks :
 
 1. Is n odd ?
-```cpp
+```cpp  
 if(n^1 == 0){
   cout << "odd" ;
 }else{
@@ -30,5 +30,9 @@ if(n^1 == 0){
 multiply : n << 1
 divide : n >> 1
 
-3. To find 2^k : 
+3. To find 2^k :
+   if k <= 30    then use 1<<k
+   else if 31<=k<=62 then use 1LL<<k
+
+4. To 
   
