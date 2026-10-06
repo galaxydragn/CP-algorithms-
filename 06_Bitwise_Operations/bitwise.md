@@ -34,5 +34,8 @@ divide : n >> 1
    if k <= 30    then use 1<<k
    else if 31<=k<=62 then use 1LL<<k
 
-4. To 
+4. To check if kth bit is 1 : 
+   ```cpp
+   ((n>>k)&1)
+   ```
   
