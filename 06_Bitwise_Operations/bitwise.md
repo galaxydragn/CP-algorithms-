@@ -43,3 +43,10 @@ divide : n >> 1
 ```cpp
 (n|(1<<k))
 ```
+
+6. To clear bit k :
+```cpp
+(n & ~(1<<k))
+```
+
+7.
