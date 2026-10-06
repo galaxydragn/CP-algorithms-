@@ -35,7 +35,11 @@ divide : n >> 1
    else if 31<=k<=62 then use 1LL<<k
 
 4. To check if kth bit is 1 : 
-   ```cpp
-   ((n>>k)&1)
-   ```
-  
+```cpp
+((n>>k)&1)
+```
+
+5. To set kth bit 1 : 
+```cpp
+(n|(1<<k))
+```
