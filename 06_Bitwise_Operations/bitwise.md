@@ -49,4 +49,18 @@ divide : n >> 1
 (n & ~(1<<k))
 ```
 
-7.
+7. Toggle bit k :
+   Toggle means : 1 changes into 0 and vice versa
+```cpp
+(n^(1<<k))
+```
+
+8. Is n a power of 2 :
+```cpp
+(n>0 && n&(n-1) == 0)
+```
+
+9. Swapping without temp : 
+```cpp
+a^=b ;  b^=a ; a^=b ; 
+```
